@@ -26,7 +26,7 @@
 - Matedata Storage: [NFT.Storage](https://nft.storage/) is a long-term storage service designed for off-chain NFT data (like metadata, images, and other assets) for up to 31GiB in size per individual upload.
 - Web3 Messaging: [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) is an open protocol and network for secure and private web3 messaging.
 
-![GigiBlock](https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez/blob/main/public/gigiblock-logo.png)
+![GigiBlock](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-logo.png)
 
 ### Project Feature
 
