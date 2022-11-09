@@ -37,7 +37,7 @@
 
 #### 2. Find work Page
 
-![FindworkPage](https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez/blob/main/public/gigiblock-findowork%202022-11-08%20.jpg)
+![FindworkPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-findowork%202022-11-08%20.jpg)
 
 #### 3. Find Talent Page
 
