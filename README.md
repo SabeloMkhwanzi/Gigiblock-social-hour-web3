@@ -9,7 +9,7 @@
 - Hosting Platform: [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 - Smart Contract: [hardhats](https://hardhat.org/docs) - Hardhat is a development environment for Ethereum software
 - Decentralized Storage: IPFS and NFT.Storage to client occauption matadata info: [IPFS/Filecoin](https://ipfs.io/) - A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.
-- Matedata Storage:  [NFT.Storage](https://nft.storage/) is a long-term storage service designed for off-chain NFT data (like metadata, images, and other assets) for up to 31GiB in size per individual upload. 
+- Matedata Storage: [NFT.Storage](https://nft.storage/) is a long-term storage service designed for off-chain NFT data (like metadata, images, and other assets) for up to 31GiB in size per individual upload.
 - Web3 Messaging: [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) is an open protocol and network for secure and private web3 messaging.
 
 ![GigiBlock](https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez/blob/main/public/gigiblock-logo.png)
@@ -31,7 +31,7 @@
 
 #### Live website: []()
 
-#### GitHub Repository: https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez
+#### GitHub Repository: https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3
 
 #### Demo video: [video](https://youtu.be/uEdcnt6kBIg)
 
@@ -46,7 +46,7 @@
 First, clone the repo with the following git command:
 
 ```bash
-git clone https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez
+git clone https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3
 ```
 
 Second, open a terminal in the root directory of the project and run:
