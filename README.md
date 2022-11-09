@@ -33,7 +33,7 @@
 ##### 1. Home Page
 
 ![HomePage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-home-darkmode%202022-11-08%20.jpg)
-![HomePage2](https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez/blob/main/public/gigiblock-home-lightmode%202022-11-08%20.jpg)
+![HomePage2](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-home-lightmode%202022-11-08%20.jpg)
 
 #### 2. Find work Page
 
