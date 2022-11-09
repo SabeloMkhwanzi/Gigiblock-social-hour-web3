@@ -41,7 +41,7 @@
 
 #### 3. Find Talent Page
 
-![FindTalentPage](https://github.com/SabeloMkhwanzi/web3-fiverr-dapp-jobeez/blob/main/public/gigiblock-findtalent%202022-11-08%20.jpg)
+![FindTalentPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-findtalent%202022-11-08%20.jpg)
 
 #### Live website: []()
 
