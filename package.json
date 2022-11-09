@@ -9,14 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@rainbow-me/rainbowkit": "^0.7.4",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
+    "axios": "^1.1.2",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
+    "ethers": "^5.7.1",
+    "framer-motion": "^7.6.4",
     "next": "13.0.2",
+    "nft.storage": "^7.0.0",
+    "pill-pity": "^0.2.3",
+    "random-number": "0.0.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "react-icons": "^4.4.0",
+    "react-read-more-read-less": "^1.0.7",
+    "typescript": "4.8.4",
+    "wagmi": "^0.7.15",
+    "web3modal": "^1.9.9"
   }
 }
