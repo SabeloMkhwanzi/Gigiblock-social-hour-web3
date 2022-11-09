@@ -1,10 +1,24 @@
 # Hackathon: Social Hour
 
-#### Project Description : Web3Fiverr - A web3 marketplace for freelance services, That connects talents to open projects or opportunities looking to hire. Accelerating the use of decentralized world. - Where value is given back to creator and users to take control and store user information secure, in decentralized mammer use StorageWizard Of NFT.Storage.
+#### Project Description : Web3Fiverr - A web3 freelance marketplace service, That connects talents to open projects or opportunities looking to hire. Accelerating the use of decentralized world. - Where value is given back to creator and users to take control and store user information secure, in decentralized mammer use StorageWizard Ipfs-Filecoin & NFT.Storage.
 
-### Tools
+#### Problems we are Solving 
+- High commission charge, long payment process
+- Extensive screening communicatecommunicate, big projects only
+- No quick application – must apply from each job vacancy’s source
+- Complex interface, spam applicants, and fake clients
+- Lengthy selection process, high service fee
 
-- Building Framework: [Reactjs](https://reactjs.org/) - A JavaScript library for building user interfaces
+#### How its work
+- We created a smart contract that allows a client to mint opened projects or skilled person to mint their information of career.
+- That data is minted on the Polygon testnet, and than its store on a decentralized manner using IPFS and Nft.Storage.
+- Infomation is visiable to public, no extensive screening proces and Lengthy selection process, we are using the blockchain to pay only for gas fees on Polygon to process application and posted projects.
+- We than select our field of intrest or the talent for our project - Using XMTP (Extensible Message Transport Protoco) a open protocol and network for secure and private web3 messaging to connect and get more information on the applicants or the company - by only using you chain address to communicate. 
+
+
+#### Building Stack
+
+- Building Framework: [Nextjs](https://nextjs.org/) -Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites
 - Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
 - Hosting Platform: [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 - Smart Contract: [hardhats](https://hardhat.org/docs) - Hardhat is a development environment for Ethereum software
