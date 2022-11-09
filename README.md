@@ -37,7 +37,7 @@
 
 #### Project Start: Date: Oct 28, 2022 - Nov 9, 2022
 
-#### Wallet Address : 0xF975206a46b4eD9f5F008AF9813B19bf083d94eE
+#### Filecoin (FIL) Address: f1gyinht4l6kafovczalgieh2o5hqoltnchygmpty 
 
 #### Running the app
 
