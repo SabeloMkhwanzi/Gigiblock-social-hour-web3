@@ -4,7 +4,7 @@
 
 #### Problems we are Solving 
 - High commission charge, long payment process
-- Extensive screening communicatecommunicate, big projects only
+- Extensive screening communication, big projects only
 - No quick application – must apply from each job vacancy’s source
 - Complex interface, spam applicants, and fake clients
 - Lengthy selection process, high service fee
