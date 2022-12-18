@@ -56,7 +56,7 @@ export default function SplitScreen() {
                 letterSpacing={2}
                 textDecoration="none"
               >
-                <Link href={"bridgeApp"}>Find Talent</Link>
+                <Link href={"talentList"}>Find Talent</Link>
               </Button>
               <Button
                 textColor="white"
@@ -70,7 +70,7 @@ export default function SplitScreen() {
                 letterSpacing={2}
                 textDecoration="none"
               >
-                <Link href={"bridgeApp"}>Find Work</Link>
+                <Link href={"gigiList"}>Find Work</Link>
               </Button>
             </Stack>
           </Stack>
