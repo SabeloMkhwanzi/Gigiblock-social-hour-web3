@@ -40,9 +40,6 @@ export default function JobPost() {
     return ipfsGateWayURL;
   };
 
-  // const rpcUrl = "https://matic-mumbai.chainstacklabs.com";
-  // const rpcUrl = "http://localhost:8545";
-
   async function loadWaste() {
     /* create a generic provider and query for Wastes */
     const provider = new ethers.providers.JsonRpcProvider(
@@ -54,7 +51,7 @@ export default function JobPost() {
       provider
     );
     const data = await contract.fetchMarketItems();
-    console.log("Waste data fetched from contract", data);
+    // console.log("Waste data fetched from contract", data);
     /*
      *  map over items returned from smart contract and format
      *  them as well as fetch their token metadata
@@ -63,9 +60,9 @@ export default function JobPost() {
     const items = await Promise.all(
       data.map(async (i) => {
         const tokenUri = await contract.tokenURI(i.tokenId);
-        console.log("token Uri is ", tokenUri);
+        // console.log("token Uri is ", tokenUri);
         const httpUri = getIPFSGatewayURL(tokenUri);
-        console.log("Http Uri is ", httpUri);
+        // console.log("Http Uri is ", httpUri);
         const meta = await axios.get(httpUri);
         const price = ethers.utils.formatUnits(i.price.toString(), "ether");
 
@@ -79,7 +76,7 @@ export default function JobPost() {
           collectionPoint: meta.data.properties.collectionPoint,
           weight: meta.data.properties.weight,
         };
-        console.log("item returned is ", item);
+        // console.log("item returned is ", item);
         return item;
       })
     );
@@ -89,7 +86,7 @@ export default function JobPost() {
   // eslint-disable-next-line no-unused-vars
   async function recycle(nft) {
     /* needs the user to sign the transaction, so will use Web3Provider and sign it */
-    console.log("item id clicked is", nft.tokenId);
+    // console.log("item id clicked is", nft.tokenId);
     const web3Modal = new Web3Modal();
     const connection = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
@@ -108,7 +105,7 @@ export default function JobPost() {
     await transaction.wait();
     console.log("waste transaction completed, waste should show in UI ");
     const token = nft.tokenId;
-    console.log("token id is ", token);
+    // console.log("token id is ", token);
     loadWaste();
     // navigate("/view", { state: token });
   }

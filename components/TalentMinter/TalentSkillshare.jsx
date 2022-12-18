@@ -19,14 +19,7 @@ import {
 } from "@chakra-ui/react";
 
 // eslint-disable-next-line max-len
-const APIKEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDc4RjdEY0EyRWY2OUFCNjk2NTBGQUYyN2RkMjdFZGREMzAxNzNCMEIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2NzkyMDY3Njc1MSwibmFtZSI6ImdpZ2libG9ja2VnIn0.ABuxp5SLVhUjYM516XGurH_RHHq8qwJlw_XPazMsj9k";
-
-/** rewrite ipfs:// uri to dweb.link gateway URLs
-function makeGatewayURL(ipfsURI) {
-  return ipfsURI.replace(/^ipfs:\/\//, "https://dweb.link/ipfs/");
-}
- */
+const APIKEY = process.env.NEXT_PUBLIC_NFTSTORAGE_KEY;
 
 const TalentSkillshare = () => {
   //const navigate = useNavigate();

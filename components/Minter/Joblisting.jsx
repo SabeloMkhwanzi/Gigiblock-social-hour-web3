@@ -19,15 +19,7 @@ import {
 } from "@chakra-ui/react";
 
 // eslint-disable-next-line max-len
-const APIKEY =
-  // "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDc4RjdEY0EyRWY2OUFCNjk2NTBGQUYyN2RkMjdFZGREMzAxNzNCMEIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2MzkyNTI0NTc4NiwibmFtZSI6IjNCbmIifQ.zH2tffmZVrexJuG-wjgwAkqHnrr1QFdTL3eTjTXOoZw";
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDc4RjdEY0EyRWY2OUFCNjk2NTBGQUYyN2RkMjdFZGREMzAxNzNCMEIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2NTMzNDg1ODg4OSwibmFtZSI6IkpvYmVleiJ9.DMLHOLEV3xNWPlR7hOiro_BQLnQfp4J0Qoe2sgyqhPM";
-
-/** rewrite ipfs:// uri to dweb.link gateway URLs
-function makeGatewayURL(ipfsURI) {
-  return ipfsURI.replace(/^ipfs:\/\//, "https://dweb.link/ipfs/");
-}
- */
+const APIKEY = process.env.NEXT_PUBLIC_NFTSTORAGE_KEY;
 
 const Joblisting = () => {
   //const navigate = useNavigate();
@@ -53,14 +45,14 @@ const Joblisting = () => {
   };
 
   const uploadNFTContent = async (inputFile) => {
-    const { name, description, country, weight, collectionPoint, price } =
+    const { title, description, country, name, mintedAddress, price } =
       formInput;
     if (
-      !name ||
+      !title ||
       !description ||
       !country ||
-      !weight ||
-      !collectionPoint ||
+      !name ||
+      !mintedAddress ||
       !inputFile
     )
       return;
@@ -69,13 +61,13 @@ const Joblisting = () => {
       console.log("Trying to upload asset to ipfs");
       setTxStatus("Uploading Item to IPFS & Filecoin via NFT.storage.");
       const metaData = await nftStorage.store({
-        name,
+        title,
         description,
         image: inputFile,
         properties: {
           country,
-          collectionPoint,
-          weight,
+          mintedAddress,
+          name,
           price,
         },
       });
