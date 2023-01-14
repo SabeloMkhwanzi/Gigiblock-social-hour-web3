@@ -13,6 +13,7 @@
 #### How its work
 
 - We created a smart contract that allows a client to mint opened projects or skilled person to mint their information of career.
+- Unstoppable domain to login users or RainbowKit
 - That data is minted on the Polygon testnet, and than its store on a decentralized manner using IPFS and Nft.Storage.
 - Infomation is visiable to public, no extensive screening proces and Lengthy selection process, we are using the blockchain to pay only for gas fees on Polygon to process application and posted projects.
 - We than select our field of intrest or the talent for our project - Using XMTP (Extensible Message Transport Protoco) a open protocol and network for secure and private web3 messaging to connect and get more information on the applicants or the company - by only using you chain address to communicate.
@@ -26,6 +27,7 @@
 - Decentralized Storage: IPFS and NFT.Storage to client occauption matadata info: [IPFS/Filecoin](https://ipfs.io/) - A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.
 - Matedata Storage: [NFT.Storage](https://nft.storage/) is a long-term storage service designed for off-chain NFT data (like metadata, images, and other assets) for up to 31GiB in size per individual upload.
 - Web3 Messaging: [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) is an open protocol and network for secure and private web3 messaging.
+- Unstoppable domain to login users: https://docs.unstoppabledomains.com/ - Login with Unstoppable build a universal Web3 login that authenticates your users.
 
 ![GigiBlock](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-logo.png)
 
@@ -33,16 +35,15 @@
 
 ##### 1. Home Page
 
-![HomePage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-home-darkmode%202022-11-08%20.jpg)
-![HomePage2](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-home-lightmode%202022-11-08%20.jpg)
+![HomePage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/GigiBlock%20updated%20version.png)
 
 #### 2. Find work Page
 
-![FindworkPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-findowork%202022-11-08%20.jpg)
+![FindworkPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/GigiBlock%20updated%20version2.png)
 
 #### 3. Find Talent Page
 
-![FindTalentPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-findtalent%202022-11-08%20.jpg)
+![FindTalentPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/GigiBlock%20updated%20version3.png)
 
 #### Live website: []()
 
