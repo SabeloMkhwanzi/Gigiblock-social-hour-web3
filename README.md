@@ -1,4 +1,14 @@
-# Hackathon: Social Hour
+<h1 align="center">
+   <b>
+    Hackathon: Social Hour x Gitcoin
+    </b>
+</h1>
+
+<h1 align="center">
+   <b>
+        <a href="https://gigiblock-social-hour-web3.vercel.app/" target="_blank" ><img src="https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-logo.png" /></a><br>
+    </b>
+</h1>
 
 #### Project Description : Web3Fiverr - A web3 freelance marketplace service, That connects talents to open projects or opportunities looking to hire. Accelerating the use of decentralized world. - Where value is given back to creator and users to take control and store user information secure, in decentralized mammer use StorageWizard Ipfs-Filecoin & NFT.Storage.
 
@@ -28,8 +38,6 @@
 - Matedata Storage: [NFT.Storage](https://nft.storage/) is a long-term storage service designed for off-chain NFT data (like metadata, images, and other assets) for up to 31GiB in size per individual upload.
 - Web3 Messaging: [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) is an open protocol and network for secure and private web3 messaging.
 - Unstoppable domain to login users: https://docs.unstoppabledomains.com/ - Login with Unstoppable build a universal Web3 login that authenticates your users.
-
-![GigiBlock](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/gigiblock-logo.png)
 
 ### Project Feature
 
