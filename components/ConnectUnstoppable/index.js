@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import UAuth from "@uauth/js";
-import { Button, Image, Spinner } from "@chakra-ui/react";
+import { Button, Image, Spinner, Text } from "@chakra-ui/react";
 import React from "react";
 
 const uauth = new UAuth({
@@ -86,7 +86,7 @@ export default function ConnectUnstoppable() {
           {/* {getEllipsisTxt(user.wallet_address)}
           {user.name} */}
           <Image alt="ud-logo" src="/ud-logo.svg" px={1} />
-          {user.sub}
+          <Text fontSize={["sm", "md", "lg"]}>{user.sub}</Text>
         </Button>
       </>
     );
@@ -104,7 +104,7 @@ export default function ConnectUnstoppable() {
       shadow="xl"
     >
       <Image alt="ud-logo" src="/ud-logo.svg" px={1} />
-      Login UNS Domain
+      <Text fontSize={["xs", "md"]}>Login UNS Domain</Text>
     </Button>
   );
 }

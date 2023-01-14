@@ -51,6 +51,7 @@ export default function Navbar() {
               alt="gigiblock-logo"
               width="8vw"
               height="calc(13vw*0.3)"
+              display={{ base: "none", md: "flex" }}
             />
           </a>
 
@@ -83,7 +84,12 @@ export default function Navbar() {
                     color="white"
                     href={"gigiList"}
                   >
-                    <Text textColor={TextColor}>Find Work</Text>
+                    <Text
+                      fontSize={{ base: "xs", md: "md" }}
+                      textColor={TextColor}
+                    >
+                      Find Work
+                    </Text>
                   </Link>
                 </Button>
                 <Button
@@ -126,30 +132,30 @@ export default function Navbar() {
                     <Text textColor={TextColor}>Post Work</Text>
                   </Link>
                 </Button>
+                <Button
+                  mr={2}
+                  minW="100"
+                  minH="10"
+                  bgColor={ButtonBgColor}
+                  borderRadius="full"
+                  shadow="xl"
+                >
+                  <Link
+                    fontSize={{ base: "ms", md: "md" }}
+                    py={3}
+                    fontFamily="heading"
+                    fontWeight="normal"
+                    letterSpacing={1}
+                    href={"talentSkill"}
+                  >
+                    <Text textColor={TextColor}>ShareSkills</Text>
+                  </Link>
+                </Button>
               </Stack>
             </HStack>
           </HStack>
 
-          <Flex alignItems="center">
-            <Button
-              mr={2}
-              minW="100"
-              minH="10"
-              bgColor={ButtonBgColor}
-              borderRadius="xl"
-              shadow="xl"
-            >
-              <Link
-                fontSize={{ base: "ms", md: "md" }}
-                py={3}
-                fontFamily="heading"
-                fontWeight="normal"
-                letterSpacing={1}
-                href={"talentSkill"}
-              >
-                <Text textColor={TextColor}>ShareSkills</Text>
-              </Link>
-            </Button>
+          <Flex alignItems="center" display={{ base: "none", md: "flex" }}>
             <Login />
             <ConnectUnstoppable />
             <Colormode />
@@ -159,54 +165,85 @@ export default function Navbar() {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              <Link
-                px={2}
-                py={1}
-                fontSize="md"
-                textTransform="uppercase"
-                fontWeight="normal"
-                letterSpacing={2}
+              <Button
+                mr={2}
+                minW="100"
+                minH="10"
                 bgColor={ButtonBgColor}
-                href="/"
+                borderRadius="full"
+                shadow="xl"
               >
-                Home
-              </Link>
-              <Link
-                px={2}
-                py={1}
-                fontSize="md"
-                textTransform="uppercase"
-                fontWeight="normal"
-                letterSpacing={2}
+                <Link
+                  px={2}
+                  py={1}
+                  fontSize="md"
+                  textTransform="uppercase"
+                  fontWeight="normal"
+                  letterSpacing={2}
+                  bgColor={ButtonBgColor}
+                  href="/"
+                >
+                  Home
+                </Link>
+              </Button>
+              <Button
+                mr={2}
+                minW="100"
+                minH="10"
                 bgColor={ButtonBgColor}
-                href="gigiList"
+                borderRadius="full"
+                shadow="xl"
               >
-                Find Work
-              </Link>
-              <Link
-                px={2}
-                py={1}
-                fontSize="md"
-                textTransform="uppercase"
-                fontWeight="normal"
-                letterSpacing={2}
+                <Link
+                  px={2}
+                  py={1}
+                  fontSize="md"
+                  textTransform="uppercase"
+                  fontWeight="normal"
+                  letterSpacing={2}
+                  bgColor={ButtonBgColor}
+                  href="gigiList"
+                >
+                  Find Work
+                </Link>
+              </Button>
+              <Button
+                mr={2}
+                minW="100"
+                minH="10"
                 bgColor={ButtonBgColor}
-                href={"gigiListing"}
+                borderRadius="full"
+                shadow="xl"
               >
-                Find Talent
-              </Link>
-
-              <Link
-                py={3}
-                fontSize="md"
-                fontFamily="monospace"
-                fontWeight="semibold"
-                letterSpacing={1}
-                bgColor={ButtonBgColor}
-                href={"talentSkill"}
-              >
-                <Text textColor={TextColor}>SkillShare</Text>
-              </Link>
+                <Link
+                  px={2}
+                  py={1}
+                  fontSize="md"
+                  textTransform="uppercase"
+                  fontWeight="normal"
+                  letterSpacing={2}
+                  bgColor={ButtonBgColor}
+                  href={"gigiListing"}
+                >
+                  Find Talent
+                </Link>
+              </Button>
+              <Button bgColor={ButtonBgColor} borderRadius="full" shadow="xl">
+                <Link
+                  fontSize="md"
+                  fontFamily="monospace"
+                  fontWeight="semibold"
+                  letterSpacing={1}
+                  bgColor={ButtonBgColor}
+                  href={"talentSkill"}
+                >
+                  <Text textColor={TextColor}>SkillShare</Text>
+                </Link>
+              </Button>
+              <Flex alignItems="center">
+                <Login />
+                <ConnectUnstoppable />
+              </Flex>
             </Stack>
           </Box>
         ) : null}
