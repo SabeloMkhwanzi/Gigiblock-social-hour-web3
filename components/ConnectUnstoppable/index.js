@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import UAuth from "@uauth/js";
-import { Button, Image, Text } from "@chakra-ui/react";
+import { Button, Image, Spinner } from "@chakra-ui/react";
 import React from "react";
 
 const uauth = new UAuth({
@@ -47,7 +47,16 @@ export default function ConnectUnstoppable() {
   };
 
   if (loading) {
-    return <>Loading...</>;
+    return (
+      <Spinner
+        thickness="4px"
+        speed="0.65s"
+        emptyColor="gray.200"
+        color="blue.500"
+        size="md"
+        mx={5}
+      />
+    );
   }
 
   if (error) {
