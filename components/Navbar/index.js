@@ -17,6 +17,7 @@ import Login from "../Login/index";
 
 //Components Imports
 import Colormode from "../Colormode/index";
+import ConnectUnstoppable from "../ConnectUnstoppable";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -150,7 +151,7 @@ export default function Navbar() {
               </Link>
             </Button>
             <Login />
-
+            <ConnectUnstoppable />
             <Colormode />
           </Flex>
         </Flex>

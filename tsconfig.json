@@ -22,7 +22,8 @@
     "theme.js",
     "pages/_document.js",
     "pages/index.js",
-    "pages/_app.js"
+    "pages/_app.js",
+    "components/ConnectUnstoppable/index.js"
   ],
   "exclude": ["node_modules"]
 }
