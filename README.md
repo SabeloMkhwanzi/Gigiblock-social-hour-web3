@@ -37,7 +37,7 @@
 - Decentralized Storage: IPFS and NFT.Storage to client occauption matadata info: [IPFS/Filecoin](https://ipfs.io/) - A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.
 - Matedata Storage: [NFT.Storage](https://nft.storage/) is a long-term storage service designed for off-chain NFT data (like metadata, images, and other assets) for up to 31GiB in size per individual upload.
 - Web3 Messaging: [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) is an open protocol and network for secure and private web3 messaging.
-- Unstoppable domain to login users: https://docs.unstoppabledomains.com/ - Login with Unstoppable build a universal Web3 login that authenticates your users.
+- Unstoppable domain to login users: [Unstoppable domain](https://docs.unstoppabledomains.com/) - Login with Unstoppable build a universal Web3 login that authenticates your users.
 
 ### Project Feature
 
@@ -81,10 +81,11 @@ npm install
 
 to install all the package dependencies for the project
 
-Create a .env file in the root folder and populate it with the following variables: Get Api a key from [Nft.Storage](https://nft.storage/)
+Create a .env file in the root folder and populate it with the following variables: Get Api a key from [Nft.Storage](https://nft.storage/) and [Unstoppable domain](https://docs.unstoppabledomains.com/)
 
 ```bash
 NEXT_PUBLIC_NFTSTORAGE_KEY=
+NEXT_PUBLIC_UNSTOPPABLEDOMAIN_CLIENT_ID=
 
 ```
 
