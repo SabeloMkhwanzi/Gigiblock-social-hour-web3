@@ -36,12 +36,14 @@ export default function SplitScreen() {
             </Heading>
             <Text
               fontFamily="monospace"
-              fontSize={{ base: "md", lg: "2xl" }}
+              fontSize={{ base: "md", lg: "xl" }}
               color={SubHeaderTextColor}
             >
               A web3 freelance marketplace service - That connects talents to
               open projects, showcasing opportunities for hire. Accelerating the
-              use of decentralized storage.
+              use of decentralized storage. With Unstoppable Domain, empowering
+              creators and users to take control of their own identities in a
+              fully decentralized manner.
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button
