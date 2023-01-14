@@ -5,7 +5,7 @@ import React from "react";
 
 const uauth = new UAuth({
   clientID: process.env.NEXT_PUBLIC_UNSTOPPABLEDOMAIN_CLIENT_ID,
-  redirectUri: "https://gigiblock-social-hour-web3.vercel.app",
+  redirectUri: "https://gigiblock-social-hour-web3.vercel.app/",
   scope: "openid wallet",
 });
 
