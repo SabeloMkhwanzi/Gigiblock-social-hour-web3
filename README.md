@@ -53,16 +53,6 @@
 
 ![FindTalentPage](https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3/blob/main/public/GigiBlock%20updated%20version3.png)
 
-#### Live website: []()
-
-#### GitHub Repository: https://github.com/SabeloMkhwanzi/Gigiblock-social-hour-web3
-
-#### Demo video: [video](https://youtu.be/uEdcnt6kBIg)
-
-#### Project Start: Date: Oct 28, 2022 - Nov 9, 2022
-
-#### Filecoin (FIL) Address: f1gyinht4l6kafovczalgieh2o5hqoltnchygmpty
-
 #### Running the app
 
 ### Getting Started
